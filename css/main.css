@@ -1,0 +1,345 @@
+body
+{
+    margin: 0;
+    padding: 0;
+    color: #555;
+    font: normal 10pt Arial,Helvetica,sans-serif;
+}
+#content, .header-content, #footer {
+    width: 950px;
+    margin: 0 auto;
+}
+
+#header
+{
+    position: fixed;
+    top: 0;
+    background: #e9f1f4;
+    height: 35px;
+    width: 100%;
+    border-bottom: 1px #d8dee2 solid;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+#content
+{
+    padding: 20px;
+    margin-top: 36px;
+}
+
+#sidebar
+{
+    padding: 20px 20px 20px 0;
+}
+
+#footer
+{
+    padding: 10px;
+    font-size: 0.8em;
+    text-align: center;
+    border-top: 1px solid #C9E0ED;
+}
+
+.header-content
+{
+    width: 950px;
+    margin: 0 auto;
+    line-height: 35px;
+}
+
+#mainmenu
+{
+    background:white url(bg.gif) repeat-x left top;
+}
+
+#mainmenu ul
+{
+    padding:6px 20px 5px 20px;
+    margin:0px;
+}
+
+#mainmenu ul li
+{
+    display: inline;
+}
+
+#mainmenu ul li a
+{
+    color:#ffffff;
+    background-color:transparent;
+    font-size:12px;
+    font-weight:bold;
+    text-decoration:none;
+    padding:5px 8px;
+}
+
+#mainmenu ul li a:hover, #mainmenu ul li.active a
+{
+    color: #6399cd;
+    background-color:#EFF4FA;
+    text-decoration:none;
+}
+
+div.flash-error, div.flash-notice, div.flash-success
+{
+    padding:.8em;
+    margin-bottom:1em;
+    border:2px solid #ddd;
+}
+
+div.flash-error
+{
+    background:#FBE3E4;
+    color:#8a1f11;
+    border-color:#FBC2C4;
+}
+
+div.flash-notice
+{
+    background:#FFF6BF;
+    color:#514721;
+    border-color:#FFD324;
+}
+
+div.flash-success
+{
+    background:#E6EFC2;
+    color:#264409;
+    border-color:#C6D880;
+}
+
+div.flash-error a
+{
+    color:#8a1f11;
+}
+
+div.flash-notice a
+{
+    color:#514721;
+}
+
+div.flash-success a
+{
+    color:#264409;
+}
+
+div.form .rememberMe label
+{
+    display: inline;
+}
+
+div.view
+{
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #C9E0ED;
+}
+
+div.breadcrumbs span
+{
+    font-weight: bold;
+}
+
+div.search-form
+{
+    padding: 10px;
+    margin: 10px 0;
+    background: #eee;
+}
+
+.portlet
+{
+
+}
+
+.portlet-decoration
+{
+    padding: 3px 8px;
+    background: #B7D6E7;
+    border-left: 5px solid #6FACCF;
+}
+
+.portlet-title
+{
+    font-size: 12px;
+    font-weight: bold;
+    padding: 0;
+    margin: 0;
+    color: #298dcd;
+}
+
+.portlet-content
+{
+    font-size:0.9em;
+    margin: 0 0 15px 0;
+    padding: 5px 8px;
+    background:#EFFDFF;
+}
+
+.portlet-content ul
+{
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding: 0;
+}
+
+.portlet-content li
+{
+    padding: 2px 0 4px 0px;
+}
+
+.operations
+{
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.operations li
+{
+    padding-bottom: 2px;
+}
+
+.operations li a
+{
+    font: bold 12px Arial;
+    color: #0066A4;
+    display: block;
+    padding: 2px 0 2px 8px;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.operations li a:visited
+{
+    color: #0066A4;
+}
+
+.operations li a:hover
+{
+    background: #80CFFF;
+}
+.left-col, .right-col {
+    width: 470px;
+    float: left;
+}
+.left-col {
+}
+.right-col {
+    text-align: center;
+    border-left: 1px #ddd solid;
+
+}
+.clear {
+    clear: both;
+}
+.fl-l {
+    float: left;
+}
+.header-search {
+    position: absolute;
+    right: 0;
+}
+.header-content {
+    position: relative;
+}
+.header-content input {
+    width: 200px;
+}
+.list {
+    list-style: none;
+    margin-left: 50px;
+}
+.list-info {
+    margin-bottom: 2px;
+}
+.cont-list {
+    margin: 0 auto;
+}
+li.list-title {
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+li.list-desc {
+    font-size: 14px;
+    margin-bottom: 5px;
+    font-style: italic;
+}
+.breadcrumbs {
+    float: left;
+}
+.contr-title {
+    font-size: 16px;
+    font-weight: bold;
+}
+.cont-list {
+    width: 350px;
+    margin-top: 10px;
+}
+.like-button {
+    background: #e9f1f4;
+    padding: 2px;
+    display: block;
+    width: 60px;
+    margin: 0 auto;
+    border: 1px #d8dee2 solid;
+    border-radius: 3px;
+    text-decoration: none;
+    text-align: center;
+}
+.like-button:hover {
+    background: #405a6a;
+}
+.red {
+    color: #FF0000;
+}
+.green {
+    color: #00FF00;
+}
+.user-block {
+    width: 400px;
+    margin: 0 auto;
+}
+.user-photo img {
+    margin-top: 15px;
+}
+.repo {
+    padding: 10px;
+    width: 600px;
+    margin: 0 auto;
+    margin-bottom: 5px;
+    background: #f3f3f3;
+    border: 1px #ddd solid;
+    border-radius: 3px;
+}
+.repo div {
+    margin-bottom: 5px;
+}
+.repo-desc {
+    font-style: italic;
+}
+.repo-info span {
+    margin-right: 50px;
+}
+.repo-links a {
+    margin-right: 20px;
+}
+.repo-name {
+    font-size: 15px;
+    font-weight: bold;
+}
+.repo-info {
+    position: relative;
+}
+.search-like {
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+.repo-like {
+    margin: 10px 0 0 0;
+}
