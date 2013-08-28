@@ -20,6 +20,7 @@ body
     border-bottom: 1px #d8dee2 solid;
     border-bottom-left-radius: 5px;
     border-bottom-right-radius: 5px;
+    z-index: 10;
 }
 
 #content
